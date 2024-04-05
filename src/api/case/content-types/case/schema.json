@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cases",
+  "info": {
+    "singularName": "case",
+    "pluralName": "cases",
+    "displayName": "Case",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Namecase": {
+      "type": "string"
+    },
+    "Detail": {
+      "type": "text"
+    },
+    "Date": {
+      "type": "datetime"
+    },
+    "Stats": {
+      "type": "string"
+    },
+    "SourceIP": {
+      "type": "string"
+    },
+    "Desitnation": {
+      "type": "string"
+    },
+    "Affiliation": {
+      "type": "string"
+    }
+  }
+}
